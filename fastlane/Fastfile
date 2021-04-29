@@ -1,7 +1,16 @@
 fastlane_version "2.24.0"
 default_platform :ios
+
 platform :ios do
-   lane :example do
-      puts("this is my first 🚀 lane")
+   desc "Description of what the lane does"
+   lane :generate_ipa_develop do
+     build_ios_app(
+       configuration: "Debug",
+       scheme: "JenkinsFastlaneExample",
+       clean: true,
+       export_method: 'development',
+       output_directory: "~/Downloads", # Destination directory. Defaults to current directory.
+       output_name: "fastlane_jenkins.ipa",
+     )
    end
-end
+ end

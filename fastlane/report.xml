@@ -5,12 +5,17 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.00022">
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.000307">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="9.0e-05">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000128">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: build_ios_app" time="62.157331">
         
       </testcase>
     

@@ -16,11 +16,11 @@ or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
-### ios example
+### ios generate_ipa_develop
 ```
-fastlane ios example
+fastlane ios generate_ipa_develop
 ```
-
+Description of what the lane does
 
 ----
 
